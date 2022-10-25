@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+ import React from 'react';
 import './App.css';
-import Header from './Component/HeaderHooks/Headers';
-
+import HooksMain from './Component/ReactHooks/HooksMain';
+ 
+ 
 function App() {
   return (
      <div>
-     <Header/>
+     <HooksMain/>
+  
      </div>
   );
 }

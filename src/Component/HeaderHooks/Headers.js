@@ -46,10 +46,10 @@ function Header() {
 <div>
 
 <Routes>
- <Route path='/' element={<Home/>}/>
- <Route path="/about" element={<About/>}/>
- <Route path="/regsiston" element={<Regsation/>}/>
- <Route path="/login" element={<Login/>}/>
+ <Route path='/'exact element={<Home/>}/>
+ <Route path="/about" exact element={<About/>}/>
+ <Route path="/regsiston" exact element={<Regsation/>}/>
+ <Route path="/login" exact element={<Login/>}/>
 </Routes>
 </div>
     </BrowserRouter>
